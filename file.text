@@ -2,12 +2,12 @@
 Animali da laboratorio
 ______________________________________________________________
 Colonne           | tipo               | Attributo           |
-ID                | Int                | Not_Null            |
-Dimensione        | -                  | -                   |
-Razza             | -                  | -                   |
-Data di nascita   | -                  | -                   |
-Sesso             | -                  | -                   |
-Attività          | -                  | -                   |
-Peso              | -                  | -                   |
-Ubicazione        | -                  | -                   | 
-Note              | -                  | -                   | 
+ID                | Int                | PK, Autoincrement   |
+Nome              | Int                | Not_Null            |
+Dimensione        | VARCHAR(50)        | Not_Null            |
+Razza             | VARCHAR(50)        | Not_Null            |
+Data di nascita   | DATE               | Not_Null            |
+Sesso             | VARCHAR(50)        | Not_Null            |
+Peso              | Double             | Not_Null            |
+Ubicazione        | VARCHAR(100)       | -                   | 
+Note              | Text               | Null                | 
