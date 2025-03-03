@@ -1,0 +1,13 @@
+
+Animali da laboratorio
+______________________________________________________________
+Colonne           | tipo               | Attributo           |
+ID                | Int                | Not_Null            |
+Dimensione        | -                  | -                   |
+Razza             | -                  | -                   |
+Data di nascita   | -                  | -                   |
+Sesso             | -                  | -                   |
+Attività          | -                  | -                   |
+Peso              | -                  | -                   |
+Ubicazione        | -                  | -                   | 
+Note              | -                  | -                   | 
